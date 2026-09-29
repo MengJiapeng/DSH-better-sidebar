@@ -396,6 +396,9 @@ describe('session cwd resolution over the API route', () => {
       ]) {
         expect(await invoke(route, 'git.worktrees', { ...base, repoRoot })).toMatchObject({ ok: true })
         const payload = { ...base, repoRoot, worktree }
+        // Primary status omits worktree, but must still select the child.
+        const statusPayload = worktree === repoRoot ? { ...base, repoRoot } : payload
+        expect(await invoke(route, 'git.status', statusPayload)).toMatchObject({ ok: true, value: { branch } })
         expect(await invoke(route, 'git.branch', payload)).toMatchObject({ ok: true, value: { current: branch } })
         expect(await invoke(route, 'git.log', { ...payload, count: 1, skip: 0 })).toMatchObject({ ok: true, value: [{ subject }] })
         expect(await invoke(route, 'git.log', { ...payload, count: 1, skip: 1 })).toMatchObject({ ok: true, value: [] })
