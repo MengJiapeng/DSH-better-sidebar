@@ -62,7 +62,7 @@ What this plugin adds on top of DSH's stock sidebar:
 **Prerequisites**: DSH installed (`dsh web` boots), Node.js ≥ 20, pnpm ≥ 10.
 
 **Supported DSH versions**:
-<a href="https://www.npmjs.com/package/@deepseek-ai/dsh?activeTab=versions"><img alt="Supported DSH versions (v0.24.0): 0.2.0-rc.1+" src="https://img.shields.io/badge/DSH-0.2.0--rc.1%2B-4d6bfe" /></a>
+<a href="https://www.npmjs.com/package/@deepseek-ai/dsh?activeTab=versions"><img alt="Supported DSH versions (v0.24.1): 0.2.0-rc.1+" src="https://img.shields.io/badge/DSH-0.2.0--rc.1%2B-4d6bfe" /></a>
 
 > 📌 **Channel and support line**: `v0.24.1` targets DSH **0.2.0-rc.1+** (0.2.0's first candidate rides npm's `next` dist-tag; `latest` is still 0.1.7-rc.2). **Pin the DSH version exactly**: `npm i -g @deepseek-ai/dsh@0.2.0-rc.1`. **Hosts on the 0.1.7 line should pin `dsh-better-sidebar@0.22.1`**: 0.2.0 is a host minor bump, and caret ranges such as `^0.1.7-rc.1` fail the host's startup compatibility preflight on 0.2.0, which disables the whole profile row silently.
 
@@ -183,15 +183,11 @@ Update: `git pull && pnpm install && pnpm build` → `node scripts/package-regis
 
 ## 💬 Community
 
-WeChat / QQ group QR codes will live here. After uploading the QR images (drag them into any issue/comment to get a `user-attachments` link), replace `src` below and uncomment:
+Recommended: join the QQ group (577011007) or scan the WeChat group QR code:
 
 <div align="center">
-  <!-- WeChat group QR code
-  <img width="220" alt="WeChat group QR code" src="https://github.com/user-attachments/assets/REPLACE_ME" />
-  -->
-  <!-- QQ group QR code
-  <img width="220" alt="QQ group QR code" src="https://github.com/user-attachments/assets/REPLACE_ME" />
-  -->
+  <img width="220" alt="WeChat group QR code" src="https://github.com/user-attachments/assets/5d727d52-7fff-4526-8b36-fb7203fb1dce" />
+  <img width="220" alt="QQ group QR code" src="https://github.com/user-attachments/assets/9be34629-26ef-4537-aad4-1393c147f81c" />
 </div>
 
 ## 🆕 Recent Updates
@@ -200,7 +196,7 @@ WeChat / QQ group QR codes will live here. After uploading the QR images (drag t
   <a href="https://github.com/user-attachments/assets/946f7028-4967-461e-a750-d1b5056b62d0"><img width="33%" alt="Service API base screenshot" src="https://github.com/user-attachments/assets/946f7028-4967-461e-a750-d1b5056b62d0" /></a>
 </div>
 
-**Supported DSH versions**: <a href="https://www.npmjs.com/package/@deepseek-ai/dsh?activeTab=versions"><img alt="Supported DSH versions (v0.24.0): 0.2.0-rc.1+" src="https://img.shields.io/badge/DSH-0.2.0--rc.1%2B-4d6bfe" /></a> · full release history on the [Releases](https://github.com/omdsh-dev/DSH-better-sidebar/releases) page
+**Supported DSH versions**: <a href="https://www.npmjs.com/package/@deepseek-ai/dsh?activeTab=versions"><img alt="Supported DSH versions (v0.24.1): 0.2.0-rc.1+" src="https://img.shields.io/badge/DSH-0.2.0--rc.1%2B-4d6bfe" /></a> · full release history on the [Releases](https://github.com/omdsh-dev/DSH-better-sidebar/releases) page
 
 ### v0.24.1
 
